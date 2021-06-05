@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let quarterSales = [1800, 2500, 3000, 4000]
+        let netProfits = quarterSales.map(function(value){
+            return value * 0.7;
+        });
+
+        document.write(netProfits.join(', '));
+        document.write('<br>');
+
+        let netProfitsGreaterThan2000 = netProfits.filter((value) => value > 2000);
+        document.write(netProfitsGreaterThan2000.join(', '))
+        document.write('<br>');
+        
+        let sumProfits = netProfits.reduce(function(total, value){
+            return total + value}, 0 );
+
+        document.write(sumProfits);
+    </script>
+</body>
+</html>
