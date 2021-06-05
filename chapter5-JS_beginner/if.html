@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let isRaining = true;
+        let lightsAreOn;
+        let textLightsAreOn;
+
+        /* if (isRaining) {
+            lightsAreOn = true;
+        } else {
+            lightsAreOn = false;
+        } */
+
+        lightsAreOn = isRaining;
+
+        textLightsAreOn = (lightsAreOn) ? '' : 'not';
+
+        document.write(`Lights are ${textLightsAreOn} on`)
+
+        /* if (lightsAreOn) {
+            document.write ('Lights are on');
+        } else {
+            document.write ('Lights are not on');
+        } */
+
+    </script>
+
+    <script>
+        let choice = 3;
+
+        if (choice == 1) {
+            document.write ('First choice');
+        } else if (choice == 2) {
+            document.write ('Second choice');
+        } else if (choice == 3) {
+            document.write ('Third choice');
+        } else {
+            document.write ('wrong choice');
+        }
+    </script>
+
+    <script>
+        let grade = 9;
+
+        if (grade >=5) {
+            document.write ('Pass-');
+            if (grade >=8) {
+                document.write ('Excellent')
+            }
+            else {
+                document.write ('Very good')
+            }
+        } else {
+            document.write ('Fail');
+        }
+    </script> 
+</body>
+</html>
