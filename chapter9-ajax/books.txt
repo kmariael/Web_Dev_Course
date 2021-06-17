@@ -1,0 +1,18 @@
+{
+ "library":{
+    "books":[
+      {
+	"title": "Java Fundamentals",
+	"author": "Ath. Androutsos"
+      },
+      {
+	"title": "The Art of Programming",
+	"author": "D. Knuth"
+      },
+      {
+	"title": "Computer Networks",
+	"author": "A. Tanenbaum"
+      }
+    ]
+  }
+}
